@@ -9,7 +9,7 @@ import { slideIn } from '../utils/motion'
 
 
 
-const Contact = () => {
+const COntact = () => {
   
   const formRef = useRef(); 
   const [form, setForm] = useState({
@@ -126,4 +126,4 @@ const Contact = () => {
   )
 }
 
-export default SectionWrapper(Contact, "contact")
+export default SectionWrapper(COntact, "contact")
