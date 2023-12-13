@@ -1,7 +1,7 @@
 {
   "name": "my-3d-portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "10.2.3",
   "type": "module",
   "scripts": {
     "dev": "vite",

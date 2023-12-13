@@ -1,7 +1,7 @@
 import { useState } from "react";
 import {
   About,
-  COntact,
+  Contact,
   Experience,
   Feedbacks,
   Hero,
@@ -26,7 +26,7 @@ const App = () => {
           <Works />
           <Feedbacks />
           <div className="relative z-0">
-            <COntact />
+            <Contact />
             <StarsCanvas />
           </div>
           <Footer />
