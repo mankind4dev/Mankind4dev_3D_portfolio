@@ -25,7 +25,7 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
+import realcastle from "./company/realcastle.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -58,7 +58,7 @@ export {
   threejs,
   meta,
   shopify,
-  starbucks,
+  realcastle,
   tesla,
   carrent,
   jobit,

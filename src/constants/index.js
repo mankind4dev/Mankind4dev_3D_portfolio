@@ -14,7 +14,7 @@ import {
     mongodb,
     git,
     meta,
-    starbucks,
+    realcastle,
     tesla,
     shopify,
     mylogo4,
@@ -45,15 +45,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Backend Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "React Native Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Next.JS 13 Developer",
       icon: creator,
     },
   ];
@@ -112,15 +112,15 @@ import {
   const experiences = [
     {
       title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      company_name: "Realcastle",
+      icon: realcastle,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "November 2023 - January 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained responsive and interactive web applications using Frontend technologies.", 
+      "Implemented responsive designs and ensured cross-browser compatibility.", 
+      "Participated in agile development processes and attended regular sprint meetings.", 
+      "Integrated RESTful APIs to fetch and display dynamic content on web pages.", 
       ],
     },
     {
