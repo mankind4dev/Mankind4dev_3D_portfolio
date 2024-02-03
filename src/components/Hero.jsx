@@ -28,7 +28,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section className="relative w-full h-[580px] mx-auto">
       <div
         className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
       >
@@ -41,9 +41,9 @@ const Hero = () => {
             Hi, I'm <span className="text-[#F1E5AC]">Mankind4dev.</span>
           </h1>
           <h1 className={`${styles.heroText}  sx:text-[10px]`}>
-             <span className={`${styles.text} text xs:text-[18px] sm:text-[17px] md:text-[20px] lg:text-[40px] xl:text-[40px]`}></span>
+             <span className={`${styles.text} text`}></span>
           </h1>
-          
+          <img src={mylogo4} alt="Mankind"/>
         </div>
       </div>
       {/* <ComputersCanvas /> */}
