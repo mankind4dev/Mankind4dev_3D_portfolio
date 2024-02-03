@@ -40,10 +40,10 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-[#F1E5AC]`}>
             Hi, I'm <span className="text-[#F1E5AC]">Mankind4dev.</span>
           </h1>
-          <h1 className={`${styles.heroText} md:text-[50px]`}>
-            {/* An <br /> */} <span className={`${styles.text} text`}></span>
+          <h1 className={`${styles.heroText}  sx:text-[10px]`}>
+             <span className={`${styles.text} text xs:text-[18px] sm:text-[17px] md:text-[20px] lg:text-[40px] xl:text-[40px]`}></span>
           </h1>
-          <img src={mylogo4} alt="Mankind" />
+          
         </div>
       </div>
       {/* <ComputersCanvas /> */}
