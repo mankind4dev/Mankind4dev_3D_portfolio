@@ -28,7 +28,7 @@ import shopify from "./company/shopify.png";
 import realcastle from "./company/realcastle.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
+import realCastle from "./realCastle.png";
 import hotelbooking from "./hotelbooking.png";
 import gogolive from "./gogolive.png";
 import myPortfolio from "./my-portfolio.png";
@@ -62,7 +62,7 @@ export {
   shopify,
   realcastle,
   tesla,
-  carrent,
+  realCastle,
   hotelbooking,
   gogolive,
   myPortfolio,

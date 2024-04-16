@@ -18,7 +18,7 @@ import {
   tesla,
   shopify,
   mylogo4,
-  carrent,
+  realCastle,
   hotelbooking,
   gogolive,
   myPortfolio,
@@ -217,7 +217,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: realCastle,
     source_code_link: "https://github.com/mankind4dev/real-castle",
   },
   {
