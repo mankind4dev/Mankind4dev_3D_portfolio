@@ -1,10 +1,12 @@
 import mylogo4 from "./mankind4dev.png";
 import mylogo2 from "./mankind4dev.png";
+import hotelIcon from "./hotelIcon.png";
 import logo from "./logo.svg";
+import reactNative from "./react-native.png";
 import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import next1 from "./next1.jpg";
+ 
+import frontend from "./frontend.jpg";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -24,7 +26,8 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+import gogoliveLogo from "./company/gogoliveLogo.png";
+import foresiteLogo from "./company/foresiteLogo.png";
 import realcastle from "./company/realcastle.png";
 import tesla from "./company/tesla.png";
 
@@ -37,11 +40,13 @@ import htmlCssPortfolio from "./html-css-portfolio.png";
 export {
   mylogo4,
   mylogo2,
+  hotelIcon,
   logo,
+  reactNative,
   backend,
-  creator,
-  mobile,
-  web,
+  next1,
+  
+  frontend,
   github,
   menu,
   close,
@@ -59,7 +64,8 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
+  gogoliveLogo,
+  foresiteLogo,
   realcastle,
   tesla,
   realCastle,
