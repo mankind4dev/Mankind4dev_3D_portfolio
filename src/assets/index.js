@@ -29,8 +29,10 @@ import realcastle from "./company/realcastle.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import hotelbooking from "./hotelbooking.png";
+import gogolive from "./gogolive.png";
+import myPortfolio from "./my-portfolio.png";
+import htmlCssPortfolio from "./html-css-portfolio.png";
 
 export {
   mylogo4,
@@ -61,6 +63,8 @@ export {
   realcastle,
   tesla,
   carrent,
-  jobit,
-  tripguide,
+  hotelbooking,
+  gogolive,
+  myPortfolio,
+  htmlCssPortfolio,
 };
