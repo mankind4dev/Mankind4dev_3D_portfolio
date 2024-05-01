@@ -37,6 +37,10 @@ import gogolive from "./gogolive.png";
 import myPortfolio from "./my-portfolio.png";
 import htmlCssPortfolio from "./html-css-portfolio.png";
 
+import crystalBead from "./testimony/crystalBead.jpg"
+import promisedBag from "./testimony/promisedBag.jpg"
+import noah from "./testimony/noah.jpg"
+
 export {
   mylogo4,
   mylogo2,
@@ -45,6 +49,11 @@ export {
   reactNative,
   backend,
   next1,
+
+  crystalBead,
+  promisedBag,
+  noah,
+
   
   frontend,
   github,
