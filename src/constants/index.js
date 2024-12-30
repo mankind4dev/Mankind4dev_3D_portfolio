@@ -1,5 +1,6 @@
 import {
-
+  mylogo4,
+  mylogo2,
   backend,
   reactNative,
   next1,
@@ -15,6 +16,11 @@ import {
   mongodb,
   git,
   meta,
+  alphaTwelve,
+  financeFlow,
+  mankind4devBlog,
+  nigeriaRenthub,
+  teslaDashboard,
   realcastle,
   tesla,
   gogoliveLogo,
@@ -28,7 +34,8 @@ import {
   threejs,
   crystalBead,
   promisedBag,
-  noah
+  noah,
+  financeFlowLogo,
 } from "../assets";
 
 export const navLinks = [
@@ -109,6 +116,63 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Full-Satck Developer",
+    company_name: "Mankind4dev Blog",
+    icon: mylogo2,
+    iconBg: "#383E56",
+    date: "December 2024 - Present",
+    points: [
+      "Designed, developed, and maintained responsive and interactive web applications using modern frontend technologies, ensuring a seamless user experience across devices.",
+      "Implemented pixel-perfect, responsive designs, optimizing for cross-browser compatibility and performance.",
+      "Collaborated within agile development teams, actively contributing to sprint planning, stand-up meetings, and iterative feature delivery.",
+      "Integrated and optimized RESTful APIs to dynamically fetch, display, and manage data, improving application functionality and user engagement.",
+    ],
+  },
+  {
+    title: "Frondend Developer",
+    company_name: "Finance Flow",
+    icon: financeFlowLogo,
+    iconBg: "#383E56",
+    date: "October 17th, 2024 - November 2nd, 2024",
+    points: [
+      "Designed, developed, and maintained full-stack web applications, leveraging modern frontend frameworks and backend technologies to deliver seamless user experiences across devices.",
+      "Implemented pixel-perfect, responsive UI designs while ensuring cross-browser compatibility and optimized performance.",
+      "Built and maintained scalable RESTful APIs and backend services, enabling efficient data management and secure client-server communication.",
+      "Collaborated within agile development teams, actively participating in sprint planning, code reviews, and delivering features in iterative cycles.",
+      "Integrated databases and optimized queries to ensure high performance and reliability for dynamic, data-driven applications.",
+      "Streamlined application functionality by implementing robust authentication, authorization, and third-party API integrations.",
+    ],
+  },
+  {
+    title: "Frondend Developer",
+    company_name: "Tesla Dashboard",
+    icon: mylogo2,
+    iconBg: "#383E56",
+    date: "October 26th, 2024 - November 4nd, 2024",
+    points: [
+      "Designed, developed, and maintained interactive dashboards, leveraging modern frontend frameworks and Redux for efficient state management, ensuring seamless user experiences across devices.",
+      "Implemented pixel-perfect, responsive UI designs for dashboards, optimizing for cross-browser compatibility, accessibility, and performance.",
+      "Utilized Redux to manage global state, enabling efficient data storage, retrieval, and synchronization across various components within the dashboard.",
+      "Collaborated within agile development teams, actively participating in sprint planning, code reviews, and delivering iterative feature enhancements for dashboards.",
+      "Integrated databases and optimized queries to support dynamic, real-time data visualization and reporting within the dashboard.",
+      "Streamlined dashboard functionality by implementing robust authentication, role-based authorization, and third-party API integrations for enriched data insights.",
+    ],
+  },
+  {
+    title: "Full-Satck Developer",
+    company_name: "Alpha Twelve",
+    icon: mylogo2,
+    iconBg: "#383E56",
+    date: "October 10th, 2024 - November 24th, 2024",
+    points: [
+      "Designed, developed, and maintained interactive and user-friendly dashboards, leveraging modern frontend frameworks  to provide seamless data visualization and user experiences across devices.",
+      "Implemented pixel-perfect, responsive UI designs for dashboards, ensuring cross-browser compatibility, accessibility, and optimized performance.",
+      "Built and maintained scalable RESTful APIs and backend services to power real-time data updates, filtering, and analytics within the dashboards.",
+      "Collaborated within agile development teams, contributing to sprint planning, code reviews, and delivering iterative enhancements to dashboard features.",
+      "Enhanced user experience by implementing interactive charts, graphs, and tables using libraries like Chart.js,  Chakra-ui.js",
+    ],
+  },
   {
     title: "Web Developer",
     company_name: "Gogolive",
@@ -221,9 +285,120 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Mankind4dev Blog",
+    description:
+      "My website is a comprehensive resource for learning programming languages, providing step-by-step guides and tutorials for coders of all levels. This offer detailed explanations, code snippets, and exercises to help you grasp complex concepts and develop your coding skills. My web blog platform covers a wide range of programming languages. Whether you're a beginner or an experienced coder, our website is the perfect destination for learning to code with confidence.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MERN.JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mankind4devBlog,
+    source_code_link: "https://github.com/mankind4dev/mankind4dev-blog",
+    live_https: "https://mankind4dev-blog.onrender.com",
+  },
+  {
+    name: "Nigeria Renthub",
+    description:
+      "Explore Nigeria's premier online platform, designed to simplify rental management for property owners, agents, and landlords. Our innovative website enables you to effortlessly monitor rental transactions. Easily summarize financial records. Oversee multiple properties and providers in one place. Discover a smarter way to manage your rental finances with Nigeria Renthub.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MERN.JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nigeriaRenthub,
+    source_code_link: "https://github.com/mankind4dev/3mtt-hackathon-project",
+    live_https: "https://nigeriarenthub.onrender.com",
+  },
+  {
+    name: "Finance Flow",
+    description:
+      "Our web-based platform offers a convenient and efficient solution for tracking and managing money transactions from various rental providers. With our platform, users can easily monitor their transactions, create summaries, and gain valuable insights into their financial activities. By centralizing transaction data from multiple providers, our platform simplifies money tracking, saving users time and reducing financial stress.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MERN.JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: financeFlow,
+    source_code_link: "https://github.com/mankind4dev/finance-flow-reactjs",
+    live_https: "https://finance-flow-app.onrender.com",
+  },
+
+  {
+    name: "Tesla Dashboard",
+    description:
+      "We are delighted to announce the successful launch of our Company Summary Monitoring Dashboard, a cutting-edge web-based platform designed to simplify and streamline management summary processes. This intuitive tool empowers users to effortlessly monitor key performance indicators and automate summary reports from multiple data sources. With our dashboard, users can make data-driven decisions with actionable insights, enhance productivity, and reduce administrative tasks. Our Company Summary Monitoring Dashboard is now live, providing a centralized and efficient solution for summary management and informed decision-making.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react.JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: teslaDashboard,
+    source_code_link: "https://dashboard-task7-tech4dev.vercel.app",
+    live_https: "https://dashboard-task7-tech4dev.vercel.app",
+  },
+  {
+    name: "Alpha Twelve",
+    description:
+      "We are delighted to announce the successful launch of our Company Summary Monitoring Dashboard, a cutting-edge web-based platform designed to simplify and streamline management summary processes. This intuitive tool empowers users to effortlessly monitor key performance indicators and automate summary reports from multiple data sources. With our dashboard, users can make data-driven decisions with actionable insights, enhance productivity, and reduce administrative tasks. Our Company Summary Monitoring Dashboard is now live, providing a centralized and efficient solution for summary management and informed decision-making.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react.JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: alphaTwelve,
+    source_code_link: "https://github.com/mankind4dev/alpha-twelve-task",
+    live_https: "https://alpha-twelve-task-34y9.vercel.app/",
+  },
+  {
     name: "Real Castle",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Our innovative web-based platform revolutionizes the way you rent cars, offering a seamless and efficient solution for your transportation needs. With our platform, users can search and compare prices from multiple car rental providers, ensuring they get the best deal. Booking a vehicle is quick and easy, requiring just a few clicks. Once booked, users can manage their rentals efficiently, with real-time updates and notifications keeping them informed every step of the way. Additionally, our platform provides access to exclusive discounts, promotions, and loyalty rewards, further enhancing the rental experience.",
     tags: [
       {
         name: "React",
@@ -244,7 +419,7 @@ const projects = [
   {
     name: "Hotel Booking",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Our premier travel booking platform simplifies and elevates the travel experience, allowing users to seamlessly book flights, hotels, and rental cars in one transaction. The platform offers curated recommendations for popular destinations, tailored to individual interests. Users can also discover exclusive deals and discounts, as well as access personalized travel itineraries complete with insider tips and local insights. With 24/7 customer support, our platform provides a hassle-free booking experience. Whether you're a seasoned traveler or embarking on your first adventure, our platform is your ultimate travel companion.",
     tags: [
       {
         name: "React.tsx",
@@ -305,9 +480,9 @@ const projects = [
     source_code_link: "https://github.com/mankind4dev/Mankind4dev_3D_portfolio",
   },
   {
-    name: "HTML & CSS Protfolio",
+    name: "HTML & CSS Portfolio",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "I'm thrilled to announce that my portfolio website, built from scratch using HTML and CSS, is now live and performing exceptionally well! With its sleek design and seamless navigation, this platform showcases my skills and experience in a visually stunning way. The website's responsive design ensures a flawless user experience across various devices and browsers. I'm proud to have created a digital haven that accurately represents my professional brand and invites visitors to explore my work.",
     tags: [
       {
         name: "HTML/CSS",

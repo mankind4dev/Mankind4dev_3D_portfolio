@@ -9,7 +9,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) =>{
+const ProjectCard = ({ index, name, description, tags, image, source_code_link, live_https }) =>{
   return(
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt 
@@ -42,7 +42,12 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         </div>
 
         <div className="mt-5">
+              <a 
+              href={live_https} 
+              onClick={() => window.open(live_https, "_blank")} 
+              className="cursor-pointer hover:underline hover:text-[#FFD700]">
           <h3 className="text-[#FFD700] font-bold text-[24px]">{name}</h3>
+        </a>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
 

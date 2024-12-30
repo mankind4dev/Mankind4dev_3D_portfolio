@@ -2,10 +2,12 @@ import mylogo4 from "./mankind4dev.png";
 import mylogo2 from "./mankind4dev.png";
 import hotelIcon from "./hotelIcon.png";
 import logo from "./logo.svg";
+import renthubLogo from "./renthub.png";
+import financeFlowLogo from "./financeFlowLogo.png";
 import reactNative from "./react-native.png";
 import backend from "./backend.png";
 import next1 from "./next1.jpg";
- 
+
 import frontend from "./frontend.jpg";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -32,29 +34,33 @@ import realcastle from "./company/realcastle.png";
 import tesla from "./company/tesla.png";
 
 import realCastle from "./realCastle.png";
+import alphaTwelve from "./alpha-twelve.png";
+import financeFlow from "./finance-flow.png";
+import mankind4devBlog from "./mankind4dev-blog.png";
+import nigeriaRenthub from "./nigeria-renthub.png";
+import teslaDashboard from "./tesla-dashboard.png";
 import hotelbooking from "./hotelbooking.png";
 import gogolive from "./gogolive.png";
 import myPortfolio from "./my-portfolio.png";
 import htmlCssPortfolio from "./html-css-portfolio.png";
 
-import crystalBead from "./testimony/crystalBead.jpg"
-import promisedBag from "./testimony/promisedBag.jpg"
-import noah from "./testimony/noah.jpg"
+import crystalBead from "./testimony/crystalBead.jpg";
+import promisedBag from "./testimony/promisedBag.jpg";
+import noah from "./testimony/noah.jpg";
 
 export {
   mylogo4,
   mylogo2,
   hotelIcon,
   logo,
+  renthubLogo,
+financeFlowLogo,
   reactNative,
   backend,
   next1,
-
   crystalBead,
   promisedBag,
   noah,
-
-  
   frontend,
   github,
   menu,
@@ -73,6 +79,11 @@ export {
   typescript,
   threejs,
   meta,
+  alphaTwelve,
+  financeFlow,
+  mankind4devBlog,
+  nigeriaRenthub,
+  teslaDashboard,
   gogoliveLogo,
   foresiteLogo,
   realcastle,
