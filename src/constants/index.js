@@ -478,6 +478,7 @@ const projects = [
     ],
     image: myPortfolio,
     source_code_link: "https://github.com/mankind4dev/Mankind4dev_3D_portfolio",
+    live_https: ""
   },
   {
     name: "HTML & CSS Portfolio",
@@ -499,6 +500,7 @@ const projects = [
     ],
     image: htmlCssPortfolio,
     source_code_link: "https://github.com/mankind4dev/portfolio_html_css_js",
+    live_https: "https://html-css-js-portfolio-wjqz.vercel.app",
   },
 ];
 
